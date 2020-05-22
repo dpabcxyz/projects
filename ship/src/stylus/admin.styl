@@ -1,0 +1,46 @@
+@import './mixins.styl'
+.admin
+    width 100%
+    flexBox()
+    &-right
+        flex 1 1 auto
+        width 100%
+        box-sizing border-box
+        padding 0 20px
+        font-size 16px
+        overflow hidden
+        .admin-title
+            font-size 22px
+            font-weight 400
+            padding-top 20px
+        .admin-title2
+            width 100%
+            flexBox('space-between')
+            padding-bottom 10px
+            .text
+                flex-grow 1
+                span 
+                    border-bottom 1px solid green
+        .admin-grow
+            flex-grow 1
+            padding-top 20px
+        .admin-grow_page
+            padding 10px 0 20px
+            text-align right
+            flex-grow 1
+        .admin-area
+            font-size 16px
+            flexBox()
+            .ivu-row
+                width 100%
+            .search_box:first-child
+                flex-grow 1
+            .search_input, .search_btn
+                margin-left 10px
+        .table-btn
+            .ivu-btn
+                margin-right 10px
+                &:last-child
+                    margin-right 0
+@import './statistics.styl'
+@import './company.styl'

@@ -1,0 +1,5 @@
+@import './mixins.styl'
+
+.call-center 
+    background: red
+    flexBox()

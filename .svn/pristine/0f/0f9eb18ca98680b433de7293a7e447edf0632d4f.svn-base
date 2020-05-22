@@ -1,0 +1,61 @@
+@import '../mixins.styl'
+.searchResult
+    margin-top 10px
+    background linear-gradient(0deg, rgba(0, 46, 103, 1), rgba(4, 51, 130, 1))
+    box-shadow 0px 0px 4px 0px rgba(10, 32, 79, 0.9)
+    border-radius 0px 2px 2px 0px
+    margin-right 34px
+    cursor auto
+    .topbar
+        height 24px
+        background rgba(10, 122, 236, 0.6)
+        border-radius 0px 2px 0px 0px
+        font-size 12px
+        color #fff
+        flexBox(flex-start, center)
+        padding-left 19px
+        padding-right 14px
+        span:first-child
+            flex-grow: 1
+        .svg-icon_close
+            width: 10px
+            height: 10px
+            margin-left: 10px
+            fill: #fff
+            cursor pointer
+        i
+            font-style normal
+            color #1FB8FF
+            padding 0 3px
+    .searchlist
+        color #fff
+        ul
+            max-height 300px
+        li
+            height 44px
+            line-height 44px
+            padding-left 19px
+            padding-right 19px
+            font-size 12px
+            border-bottom 1px dashed rgba(227, 227, 227, 0.3)
+            cursor pointer
+            transition all 0.3s ease
+            textoverflow()
+            &.noData
+                border none
+                text-align center
+                cursor auto
+            &:hover, &.active
+                background rgba(0, 36, 89, 1)
+                color #1FB8FF
+            span
+                padding-right 5px
+        .footerbar
+            font-size 12px
+            color rgba(109, 136, 177, 1)
+            height 44px
+            line-height 44px
+            text-align right
+            padding-right 14px
+            span
+                cursor pointer

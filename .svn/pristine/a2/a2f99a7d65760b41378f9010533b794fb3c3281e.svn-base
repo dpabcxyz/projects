@@ -1,0 +1,9 @@
+textoverflow()
+    white-space nowrap
+    overflow hidden
+    text-overflow ellipsis
+
+flexBox(jusetify = flex-start, align = stretch)
+    display flex
+    justify-content jusetify
+    align-items align

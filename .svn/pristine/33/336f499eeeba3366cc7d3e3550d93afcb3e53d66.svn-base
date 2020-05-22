@@ -1,0 +1,94 @@
+@import '../mixins.styl'
+#shipSearch
+    // overflow hidden
+    z-index 1001
+    position absolute
+    width 350px
+    top 10px
+    left 0
+    transition left 0.3s ease-in-out
+    z-index 1001
+    .search-area
+        background linear-gradient(0deg, rgba(0, 46, 103, 1), rgba(4, 51, 130, 1))
+        box-shadow 0px 0px 4px 0px rgba(10, 32, 79, 0.5)
+        border-radius 0px 2px 2px 0px
+        height 46px
+        color #fff
+        flexBox()
+        .searchinput .ivu-input
+            font-size 12px
+            font-weight 400
+            color rgba(119, 145, 184, 1)
+            background none !important
+            border none
+            margin-left 8px
+            width 220px
+        .light .ivu-input
+            color #fff
+        svg
+            fill currentColor
+        & > div
+            flexBox(center, stretch)
+        .svg-icon_ship
+            width 16px
+            height 18px
+        .svg-icon_search
+            width 17px
+            height 18px
+        .svg-icon_delete
+            width 12px
+            height 12px
+            fill #5774A2
+        .svg-icon_retract
+            width 5px
+            height 5px
+        .shipIcon
+            padding 0 15px
+            position relative
+            flexBox(center, center)
+            transition all 0.3s ease
+            user-select none
+            &:after
+                content ''
+                border-left 1px solid #5774A2
+                position absolute
+                right 0
+                top 0
+                height 100%
+        .shipIcon.active
+            background #0A7AEC
+        .input
+            font-size 12px
+            font-weight 400
+            color #fff
+            line-height 30px
+            flexBox(center, center)
+        .searchIcon
+            width 45px
+            flexBox(center, center)
+        .retractingIcon
+            width 34px
+            flex-grow 1
+            background rgba(1, 72, 160, 1)
+            border-radius 0px 2px 2px 0px
+            align-self stretch
+            transition all 0.3s ease
+            span
+                flex-grow 1
+                flexBox(center, center)
+        .transition
+            transform rotate3d(0, 0, 1, 180deg)
+        .left
+            flexBox(center, )
+        .shipIcon, .searchIcon, .retractingIcon
+            cursor pointer
+    .fixedView
+        position relative
+        margin-right 34px
+        width 100%
+        margin-top 10px
+        .fixedItem
+            // position absolute
+            left 0
+            top 10px
+            width 100%

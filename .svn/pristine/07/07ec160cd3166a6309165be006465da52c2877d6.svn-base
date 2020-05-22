@@ -1,0 +1,104 @@
+.login
+    box-sizing border-box
+    flexBox()
+    flex-direction column
+    flex-grow 1
+    &-area
+        flex-grow 1
+        box-sizing border-box
+        background url('../assets/bg.jpg') no-repeat
+        background-size cover
+        flexBox(center, center)
+        flex-direction column
+        &_box
+            flex-grow 1
+            flexBox(center, center)
+            flex-direction column
+            h1
+                font-size 40px
+                font-weight 600
+                color rgba(255, 255, 255, 1)
+                line-height 30px
+                text-align center
+            .userlogin
+                width 455px
+                height 380px
+                background rgba(255, 255, 255, 1)
+                border-radius 10px
+                margin-top 36px
+                padding 0 38px
+                .title
+                    font-size 18px
+                    font-weight 500
+                    color rgba(13, 13, 13, 1)
+                    padding-top 47px
+                    text-align center
+                    margin-bottom 12px
+                .ivu-form .ivu-form-item-label
+                    font-size 14px
+                    font-weight 400
+                    color rgba(13, 13, 13, 1)
+                .ivu-input-large
+                    height 40px
+                .ivu-form-item
+                    margin-bottom 30px
+                .shipbutton
+                    margin-top -4px
+            .forgot
+                width 455px
+                background rgba(255, 255, 255, 1)
+                border-radius 10px
+                margin-top 36px
+                padding 0 38px
+                padding-bottom 30px
+                .title
+                    font-size 18px
+                    font-weight 500
+                    color rgba(13, 13, 13, 1)
+                    padding-top 47px
+                    text-align center
+                    margin-bottom 12px
+                .ivu-form .ivu-form-item-label
+                    font-size 14px
+                    font-weight 400
+                    color rgba(13, 13, 13, 1)
+                .ivu-input-large
+                    height 40px
+                .ivu-form-item
+                    margin-bottom 30px
+                .shipbutton
+                    margin-top -4px
+                .canvas
+                    width 96px
+                    height 40px
+                    overflow hidden
+                    text-align right
+                    // border 1px solid #d3d3d3
+                    canvas
+                        overflow hidden
+                        display inline-block
+                .backLogin
+                    text-align center
+                    height 14px
+                    font-size 14px
+                    font-weight 400
+                    color rgba(10, 122, 236, 1)
+                    margin-top: 17px
+                    cursor pointer
+        &_link
+            ul
+                padding-top 11px
+                flexBox(space-between)
+                font-size 12px
+                font-weight 400
+                color rgba(153, 153, 153, 1)
+                a
+                    color rgba(10, 122, 236, 1)
+.shipbutton
+    background linear-gradient(0deg, rgba(0, 46, 103, 1), rgba(4, 51, 130, 1)) !important
+    color #fff
+    span
+        color #fff
+        font-size 14px
+        font-weight 400
+        color rgba(255, 255, 255, 1)

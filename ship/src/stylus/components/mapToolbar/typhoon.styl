@@ -1,0 +1,124 @@
+
+@import '../../mixins.styl'
+.typhoon
+    felxBox()
+    flex-direction column
+    border-radius 5px
+    color #FFF
+    padding 19px 0 20px
+    width 350px
+    box-sizing border-box
+    position absolute
+    top 0
+    right 0
+    color #B2C0D3
+    background #fff
+    background linear-gradient(0deg, rgba(0, 46, 103, 1), rgba(4, 51, 130, 1))
+    box-shadow 0px 0px 4px 0px rgba(10, 32, 79, 0.5)
+    border-radius 4px
+    .title
+        font-size 14px
+        font-weight 400
+        color #FFF
+        line-height 21px
+        padding-bottom 18px
+        padding 0 15px 0 24px
+        flexBox(space-between, center)
+        padding-bottom 19px
+        span.notice
+            button[disabled]
+                opacity 0.7
+                border 1px solid #999
+        button
+            margin-left 13px
+            transition all 0.3s ease
+        .ivu-btn-small
+            font-size 12px
+            line-height 20px
+            width 42px
+            background #0A7AEC
+        .timerSelect
+            margin-left 14px
+            .ivu-select-selection
+                background #09326D
+                border 1px solid #4B6791
+            .ivu-select-dropdown
+                // background: #09326D
+            .ivu-select, .ivu-select-selected-value
+                color #fff !important
+    .list-item
+        padding 12px 9px
+        margin 0 15px
+        border-top 1px solid #5774A2
+        &:first-child
+            padding-top 0
+            border-top none
+        span
+            display block
+        .contact
+            color #797979
+            i
+                color #0A7AEC
+        i
+            font-style normal
+            margin-left 10px
+            color #1FB8FF
+            cursor pointer
+    .loadMore
+        font-size 12px
+        font-weight 400
+        color rgba(137, 166, 209, 1)
+        line-height 41px
+        height 41px
+        text-align center
+        &:hover
+            color #fff
+            cursor pointer
+    .emptyData
+        color #fff
+        padding 10px 0 30px
+        text-align center
+    .filterTy
+        padding 0 24px 19px
+        .ivu-radio-group
+            flexBox(flex-start, center)
+            flex-wrap wrap
+        .ivu-radio-wrapper
+            flex 0 1 90px
+            padding 5px 0
+        .ivu-radio-inner
+            border 1px solid #FFF
+            background none
+            &:after
+                background #FAAC23
+    .notwarning
+        color #fff
+        padding 10px 0 30px
+        text-align center
+.sendmsghtml
+    .sendform
+        flexBox()
+        padding-bottom 15px
+        &:last-child
+            flex-wrap wrap
+            padding-bottom 0
+            span
+                padding-bottom 5px
+        .ivu-checkbox
+            margin-right 16px
+        label
+            margin-right 35px
+        .textarea_disabled
+            textarea[disabled]
+                color #ccc
+.contact_modal
+    p
+        flexBox(flex-start, center)
+        padding-bottom 10px
+        span:first-child
+            flex 0 0 80px
+            text-align right
+            padding-right 5px
+        span:last-child
+            flex auto
+            color: rgba(10, 122, 236, 1)
