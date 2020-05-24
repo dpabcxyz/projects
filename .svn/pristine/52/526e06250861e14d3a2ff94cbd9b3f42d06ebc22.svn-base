@@ -1,9 +1,0 @@
-@import './mixins.styl'
-.error
-    width 100%
-    flexBox()
-    h1
-        width: 100%
-        font-size 50px
-        text-align center
-        flexBox(center, center)

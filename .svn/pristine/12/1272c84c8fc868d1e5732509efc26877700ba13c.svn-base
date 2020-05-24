@@ -1,5 +1,0 @@
-@import './mixins.styl'
-.index
-    flexBox()
-    flex-grow: 1
-    flex-direction: column

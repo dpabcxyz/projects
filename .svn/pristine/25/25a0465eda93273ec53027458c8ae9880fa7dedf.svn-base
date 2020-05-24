@@ -1,6 +1,0 @@
-#companyManage
-    flexBox()
-    width: 100%
-    flex-direction: column
-    .comanyFrom
-        width: 100%
