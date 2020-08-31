@@ -1,5 +1,5 @@
 {
-  "name": "dyna",
+  "name": "api",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "chenxuan <chenxuanvictory@163.com>",
@@ -12,7 +12,8 @@
   "dependencies": {
     "axios": "^0.20.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -30,6 +31,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "generate-asset-webpack-plugin": "^0.3.0",
     "html-webpack-plugin": "^2.30.1",
     "node-notifier": "^5.1.2",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
